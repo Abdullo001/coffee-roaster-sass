@@ -1,0 +1,114 @@
+.headquarters {
+    padding:0 20px;
+    margin-bottom: 50px;
+}
+
+.headquarters__inner {
+    position: relative;
+    padding: 50px 10px 100px;
+    background-image:url("../images/workspesok.png");
+    background-size: 100%;
+    background-repeat:no-repeat;
+    background-repeat:repeat-y;
+    background-color: #0A775F;
+    background-blend-mode: overlay;
+}
+
+.headquarters__textBox {
+    margin:0 auto;
+}
+
+.headquarters__title {
+    margin: 0;
+    padding: 0;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 59px;
+    text-align: center;
+    font-variant: small-caps;
+    color: #FFFFFF;
+}
+
+.headquarters__listBox {
+    padding-top: 80px;
+}
+
+.headquarters__list {
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 60px;
+    list-style: none;
+}
+
+.headquarters__item {
+    position: relative;
+    display: flex;
+    align-items:flex-end;
+    width:433px;
+    padding:187px 20px 40px 28px;
+    background-color:#F8F8F2;
+}
+
+.about-item:nth-child(1){
+    padding-top: 140px;
+}
+
+.about-item::before{
+    position: absolute;
+    top:calc(0% + 30px);
+    left:calc(50% + 40px);
+    display: inline-block;
+    border: 0;
+    background-repeat:no-repeat;
+    content:"";
+}
+
+.about-item:nth-child(1)::before{
+    width: 120px;
+    height:143px;
+    background-image:url("../images/headquartes1.svg");
+}
+
+.about-item:nth-child(2)::before{
+    width: 120px;
+    height:120px;
+    background-image:url("../images/headquartes2.svg");
+}
+
+.about-item:nth-child(3)::before{
+    width: 120px;
+    height:107px;
+    background-image:url("../images/headquartes3.svg");
+}
+
+.about-item + .about-item{
+    margin-left: 20px;
+}
+
+.about-item__textbox{
+    width: 190px;
+}
+
+.about-item__subtitle {
+    margin: 0;
+    margin-bottom: 10px;
+    padding: 0;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 47px;
+    font-variant: small-caps;
+    color: #333333;
+}
+
+.about-item__description {
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #333333;
+}
+

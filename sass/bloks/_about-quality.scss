@@ -1,0 +1,55 @@
+.quality {
+    position: relative;
+    margin-bottom: 20px;
+    padding:0 20px 0;
+    
+}
+
+.quality::before{
+    position: absolute;
+    top:calc(0% - 80px);
+    left:calc(50% + 150px);
+    z-index: 100;
+    display: inline-block;
+    width:550px;
+    height:500px;
+    background-image: url("../images/quality-bg-1.png");
+    content: "";
+}
+
+.quality__inner {
+    padding:100px 0 118px  0;
+    background-image:url("../images/choosepesok.png");
+    background-size: 100%;
+    background-repeat:no-repeat;
+    background-repeat:repeat-y;
+    background-color: #C99B67;
+    background-blend-mode: overlay;
+}
+
+.quality__textbox{
+    width: 639px;
+    margin-left: 123px;
+}
+
+.quality__title{
+    margin: 0;
+    padding: 0;
+    margin-bottom: 24px;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 59px;
+    font-variant: small-caps;
+    color: #FFFFFF;
+}
+
+.quality__text{
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #FFFFFF; 
+    mix-blend-mode: normal;
+    opacity: 0.8;
+}

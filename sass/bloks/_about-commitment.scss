@@ -1,0 +1,68 @@
+.commitment{
+    position: relative;
+    padding:0 20px;
+    margin-bottom: 160px;
+}
+
+.commitment::after{
+    position:absolute;
+    top:calc(0% + 75px);
+    left:calc(50% - 895px);
+    z-index: -1;
+    width: 371px;
+    height: 371px;
+    background-image:url("../images/sel-img-1.png");
+    content: "";
+}
+
+.commitment__inner{ 
+    position: relative;
+    z-index: -10;
+    padding:50px 0;
+    background-image:url("../images/Rectangle2.png");
+    background-size: 100%;
+    background-repeat:no-repeat;
+    background-blend-mode: overlay;
+    background-color:#F8F8F2;
+
+}
+
+.commitment__box{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    padding:160px 0 200px;
+}
+
+.commitment__img{
+    position: relative;
+    z-index: 100;
+    display: block;
+    width:360px;
+    height:364px;
+    margin-right: 185px;
+}
+
+.commitment__textbox{
+    width:620px;
+}
+
+.commitment__title{
+    margin: 0;
+    padding: 0;
+    margin-bottom: 24px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+    font-variant: small-caps;
+    color: #000000;
+}
+
+.commitment__text{
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #333333;
+}

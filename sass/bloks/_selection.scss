@@ -1,0 +1,122 @@
+.selection{
+    position: relative;
+    padding:0 20px;
+    margin-bottom: 20px;
+}
+
+.selection::after{
+    position:absolute;
+    top:calc(0% + 50px);
+    left:calc(50% - 895px);
+    z-index: 100;
+    width: 371px;
+    height: 371px;
+    background-image:url("../images/sel-img-1.png");
+    content: "";
+}
+
+.selection::before{
+    position: absolute;
+    top:calc(50% - 150px);
+    left:calc(50% + 530px);
+    z-index: 100;
+    width: 546px;
+    height: 542px;
+    background-image:url("../images/sel-img-2.png");
+    overflow: hidden;
+    content: "";
+}
+
+.selection__inner{ 
+    position: relative;
+    padding:50px 0;
+    background-image:url("../images/Rectangle2.png");
+    background-size: 100%;
+    background-repeat:no-repeat;
+    background-blend-mode: overlay;
+    background-color:#F8F8F2;
+
+}
+
+.selection__inner::before{
+    position: absolute;
+    top:calc(50% + 500px);
+    left:calc(50% - 930px);
+    z-index: 100;
+    width: 316px;
+    height: 269px;
+    background-image:url("../images/sel-img-3.png");
+    background-size:contain;
+    background-repeat:no-repeat;
+    content:"";
+
+}
+
+.selection__title {
+    margin: 0;
+    padding:0;
+    margin-bottom: 80px;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 59px;
+    text-align: center;
+    font-variant: small-caps;
+    text-align: center;
+}
+
+.selection__list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+}
+
+.selection__item {
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+
+.selection__item:nth-child(2n){
+    flex-direction: row-reverse;
+}
+
+.selection__item:nth-child(2n) .selection__text-box{
+    width:400px;
+    margin-left: 157px;
+} 
+
+.selection__img{
+    margin-right: 117px;
+    width: 450px;
+    height: 375px;
+}
+
+.selection__item:nth-child(2n) .selection__img{
+    margin-right: 0;
+    margin-left: 117px;
+}
+
+.selection__text-box {
+    width: 453px;
+}
+
+.selection__subtitle {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 10px;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 56px;
+    font-variant: small-caps;
+    color: #333333;
+}
+
+.selection__description {
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 34px;
+    color: #333333;
+} 
