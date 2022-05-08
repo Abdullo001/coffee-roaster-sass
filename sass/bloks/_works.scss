@@ -65,7 +65,7 @@
     background-color:#F8F8F2;
 }
 
-.item::before{
+.works__item::before{
     position: absolute;
     top:calc(0% - 80px);
     left:0;
@@ -77,7 +77,7 @@
     content:"";
 }
 
-.item + .item{
+.works__item + .works__item{
     margin-left: 20px;
 }
 

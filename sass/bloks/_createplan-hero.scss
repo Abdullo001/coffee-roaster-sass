@@ -1,0 +1,74 @@
+.createplan-hero{
+  position: relative;
+  background-blend-mode: overlay;
+  background-image:url("../images/Rectangle.png");
+  background-repeat: repeat;
+  background-size: cover;
+  background-color: #F3D7B7;
+  margin-bottom: 20px;
+}
+
+.createplan-hero::before{
+  position: absolute;
+  z-index: 100;
+  top:calc(0% - 50px);
+  left:calc(50% - 25px);
+  display: inline-block;
+  background-image:url("../images/hero-bgri2.png");
+  background-size:contain;
+  width: 160px;
+  height: 160px;
+  content:"";
+}
+
+.createplan-hero__inner{
+  padding-top: 116px;
+  padding-bottom: 249px;
+  padding-left: 130px;
+  background-blend-mode:normal;
+  background-image:url("../images/creatplan-hero-bg.png");
+  background-repeat:no-repeat;
+  background-size:710px 696px;
+  background-position: calc(50% + 405px) calc(100%);
+}
+
+.createplan-hero__text-box{
+  width: 456px;
+}
+
+.createplan-hero__title{
+  margin: 0;
+  padding: 0;
+  margin-bottom: 24px;
+  font-weight: 700;
+  font-size: 61px;
+  line-height: 75px;
+  color: #000000;
+}
+
+.createplan-hero__description{
+  margin: 0;
+  padding: 0;
+  margin-bottom: 34px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+
+}
+
+
+
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx) { 
+  
+  .createplan-hero__inner{
+      background-image:url("../images/creatplan-hero-bg@2x.png");
+  }
+} 
