@@ -72,7 +72,7 @@ only screen and (                min-resolution: 2dppx) {
       background-image:url("../images/creatplan-hero-bg@2x.png");
   }
 
-  .createplan-hero__inner{
+  .createplan-hero__inner::before{
     background-image:url("../images/hero-bgri2@2x.png");
   }
 } 
