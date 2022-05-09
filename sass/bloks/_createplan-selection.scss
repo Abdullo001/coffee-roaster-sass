@@ -132,6 +132,7 @@
 }
 
 .item__input {
+  display: inline-block;
   width:208px;
   min-height: 220px;
   padding:30px 16px 0 12px;
@@ -238,6 +239,7 @@ only screen and (                min-resolution: 2dppx) {
   
   .createplan-selection::after{
       background-image:url("../images/sel-img-1@2x.png");
+      background-size: contain;
   }
 
   .createplan-selection::before{
