@@ -104,3 +104,17 @@
     line-height: 28px;
     color: #333333;
 }
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx) { 
+    
+    .choose__item:nth-child(1)::before{
+        background-image:url("../images/choosebefore@2x.png");
+    }
+
+}

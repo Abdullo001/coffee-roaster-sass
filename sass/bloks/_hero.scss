@@ -95,4 +95,8 @@ only screen and (                min-resolution: 2dppx) {
     .hero__inner{
         background-image:url("../images/hero-bgri1@2x.png");
     }
+
+    .hero::before{
+        background-image:url("../images/hero-bgri2@2x.png");
+    }
 } 

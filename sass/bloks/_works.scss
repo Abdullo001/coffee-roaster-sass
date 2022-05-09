@@ -137,3 +137,21 @@
     background-color:#FFFFFF;
     border-color: #C99B67 ;
 }
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx) { 
+    
+    .works__listBox {
+        background-image:url("../images/works-bg-img@2x.png");
+    }
+    
+    .works__inner::before{
+        background-image:url("../images/works-sticer@2x.png");
+    }
+    
+} 

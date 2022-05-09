@@ -57,27 +57,21 @@
 
 }
 
-.about-hero__button{
-    padding:16px 24px;
-    background-color: #0A775F;
-    border-radius: 100px;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 19px;
-    text-align: center;
-    letter-spacing: 1px;
-    font-variant: small-caps;
-    color: #FFFFFF;
-    border: 2px solid transparent;
-    transition: all 0.2s ease;
-}
 
-.about-hero__button:hover{
-    border: 2px solid #0A775F;
-    color: #0A775F;
-    background-color: #fff;
-}
 
-.about-hero__button:active{
-    opacity: 0.6;
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx) { 
+    
+    .about-hero::before{
+        background-image:url("../images/hero-bgri2@2x.png");
+    }
+
+    .about-hero__inner{
+        background-image:url("../images/about-hero-bgri1@2x.png");
+    }
 }

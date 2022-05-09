@@ -120,3 +120,24 @@
     line-height: 34px;
     color: #333333;
 } 
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx) { 
+    
+    .createplan-selection::after{
+        background-image:url("../images/sel-img-1@2x.png");
+    }
+    
+    .createplan-selection::before{
+        background-image:url("../images/sel-img-2@2x.png");
+    }
+    
+    .createplan-selection__inner::before{
+        background-image:url("../images/sel-img-3.png");
+    }
+} 
